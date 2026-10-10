@@ -14,12 +14,12 @@ const projects = [
       "A personal website that introduces me, displays my projects, and provides contact information.",
     tools: "ReactJS, Tailwind CSS",
   },
-  {
-    title: "Laundry Management System",
+title: "Laundry Management System",
     description:
       "A proposed system for organizing laundry customer records and tracking laundry orders.",
     tools: "System Analysis and Design",
   },
+ 
 ];
 
 export default function App() {
