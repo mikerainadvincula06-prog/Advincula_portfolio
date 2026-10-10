@@ -236,6 +236,7 @@ export default function App() {
     I am improving my skills through school activities
     and projects.
   </p>
+<p className="mt-2 text-slate-400">My goal is to improve my programming skills, gain experience in building websites, and become a capable IT professional.</p>
 </div>
         </section>
 
