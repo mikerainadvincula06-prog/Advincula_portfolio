@@ -235,7 +235,6 @@ export default function App() {
     database management, and system development.
     I am improving my skills through school activities
     and projects.
-    My goal is to improve my programming skills, gain experience in building   websites, and become a capable IT professional.
   </p>
 </div>
         </section>
