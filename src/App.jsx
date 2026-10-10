@@ -55,8 +55,8 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-black-950 text-slate-100">
-      <header className="sticky top-0 z-50 border-b border-slate-800 bg-black-950/95">
+    <div className="min-h-screen bg-slate-950 text-slate-100">
+      <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/95">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="#home" className="text-2xl font-bold text-blue-400">
             ADVINCULA<span className="text-white">.</span>
@@ -73,7 +73,7 @@ export default function App() {
           <div
             className={`${
               menuOpen ? "flex" : "hidden"
-            } absolute left-0 top-full w-full flex-col gap-4 border-b border-slate-800 bg-black-950 p-5 md:static md:flex md:w-auto md:flex-row md:border-0 md:bg-transparent md:p-0`}
+            } absolute left-0 top-full w-full flex-col gap-4 border-b border-slate-800 bg-slate-950 p-5 md:static md:flex md:w-auto md:flex-row md:border-0 md:bg-transparent md:p-0`}
           >
             {links.map(([label, id]) => (
               <a
@@ -125,7 +125,7 @@ export default function App() {
             </div>
           </div>
 
-          <div className="mx-auto flex h-64 w-64 items-center justify-center rounded-full border-4 border-blue-500 bg-black-900 shadow-2xl shadow-blue-950 sm:h-80 sm:w-80">
+          <div className="mx-auto flex h-64 w-64 items-center justify-center rounded-full border-4 border-blue-500 bg-slate-900 shadow-2xl shadow-blue-950 sm:h-80 sm:w-80">
             <div className="text-center">
               <div className="text-7xl font-black text-blue-400">MA</div>
               <p className="mt-2 text-sm tracking-widest text-slate-400">
