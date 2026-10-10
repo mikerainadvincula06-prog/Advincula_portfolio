@@ -127,7 +127,7 @@ export default function App() {
 
           <div className="mx-auto flex h-64 w-64 items-center justify-center rounded-full border-4 border-blue-500 bg-slate-900 shadow-2xl shadow-blue-950 sm:h-80 sm:w-80">
             <div className="text-center">
-              <div className="text-7xl font-black text-blue-400">A</div>
+              <div className="text-7xl font-black text-blue-400">MA</div>
               <p className="mt-2 text-sm tracking-widest text-slate-400">
                 MY PORTFOLIO
               </p>
@@ -213,36 +213,31 @@ export default function App() {
         </section>
 
         <section id="resume" className="scroll-mt-20 bg-slate-900 py-20">
-          <div className="mx-auto max-w-6xl px-5">
-            <SectionTitle small="MY BACKGROUND" title="Resume / CV" />
-            <div className="grid gap-6 md:grid-cols-2">
-              <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
-                <h3 className="text-xl font-bold text-blue-400">Education</h3>
-                <p className="mt-4 font-semibold">
-                  Bachelor of Science in Information Technology
-                </p>
-                <p className="mt-2 text-slate-400">
-                  Cavite State University - Tanza Campus
-                </p>
-                <p className="mt-2 text-sm text-slate-500">
-                  Please check and edit these details before submitting.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
-                <h3 className="text-xl font-bold text-blue-400">
-                  Career Goal
-                </h3>
-                <p className="mt-4 leading-7 text-slate-400">
-                  My goal is to improve my programming skills, gain experience
-                  in building websites, and become a capable IT professional.
-                </p>
-              </div>
-            </div>
-            <p className="mt-6 text-sm text-slate-500">
-              Add your real education details, achievements, and work
-              experience here. Do not list skills or experience you do not have.
-            </p>
-          </div>
+          
+<div className="rounded-2xl border border-slate-700 bg-slate-950 p-6">
+  <h3 className="text-xl font-bold text-blue-400">
+    Education
+  </h3>
+
+  <p className="mt-4 font-semibold">
+    Bachelor of Science in Information Technology
+  </p>
+
+  <p className="mt-2 text-slate-400">
+    Cavite State University - Tanza Campus
+  </p>
+
+  <p className="mt-2 text-slate-400">
+    Current Student
+  </p>
+
+  <p className="mt-2 text-slate-400">
+    I am learning programming, web development,
+    database management, and system development.
+    I am improving my skills through school activities
+    and projects.
+  </p>
+</div>
         </section>
 
         <section id="contact" className="scroll-mt-20 py-20">
